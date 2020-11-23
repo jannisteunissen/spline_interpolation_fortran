@@ -38,6 +38,8 @@ which uses a table with 100 points of a cubic function as input, which is then e
     Error (L1, L2, Linf):     0.91803402E-16  0.19963740E-15  0.17763568E-14
     Evaluated points/second:  0.92936803E+08
 
+Note that the error is so small here because a cubic spline can 'exactly' approximate a cubic function. For generic function interpolation, errors will be larger.
+
 ## TODO
 
 * Implement different types of boundary conditions
